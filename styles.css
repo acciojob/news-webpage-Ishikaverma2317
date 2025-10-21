@@ -1,3 +1,4 @@
+/* Body Styling */
 body {
   background-color: #f5f5f5;
   font-family: Arial, sans-serif;
@@ -17,7 +18,7 @@ body {
   margin: 0;
 }
 
-/* Content Layout */
+/* Main Layout */
 .content {
   display: flex;
   justify-content: space-around;
@@ -27,9 +28,9 @@ body {
 
 /* Latest News Section */
 .latest-news-section {
-  width: 25%;
   background-color: white;
   padding: 15px;
+  width: 25%;
   border-radius: 5px;
 }
 
@@ -37,11 +38,16 @@ body {
   margin-top: 0;
 }
 
+.latest-news-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 /* Main Article Section */
 .main-article-section {
-  width: 45%;
   background-color: white;
   padding: 15px;
+  width: 45%;
   border-radius: 5px;
 }
 
@@ -51,10 +57,10 @@ body {
 
 /* Pictorial News Section */
 .pictorial-news-section {
-  width: 25%;
   background-color: white;
-  text-align: center;
   padding: 15px;
+  width: 25%;
+  text-align: center;
   border-radius: 5px;
 }
 
